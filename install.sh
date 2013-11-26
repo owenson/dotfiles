@@ -1,9 +1,6 @@
 #!/bin/bash
 for f in vimrc vim conky zshrc
 do
-   if [ $f == "install.sh" ]; then
-   	continue
-   fi
    CMD="ln -s `pwd`/$f ../.$f"
    echo	$CMD
    $CMD
