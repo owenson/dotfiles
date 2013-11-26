@@ -3334,4 +3334,6 @@ alias sc-en="systemctl enable"
 alias sc-dis="systemctl disable"
 alias sc-sta="systemctl start"
 alias sc-sto="systemctl stop"
+alias -g G="| grep "
+alias -g M="| more "
 
