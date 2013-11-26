@@ -17,3 +17,11 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory autocd extendedglob
 # End of lines configured by zsh-newuser-install
+autoload up-line-or-beginning-search
+autoload down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "\e[A" up-line-or-beginning-search
+bindkey "\e[B" down-line-or-beginning-search
+alias proj="sh .screenlayout/uni.sh"
+
