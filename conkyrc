@@ -6,7 +6,7 @@ update_interval 4.0
 total_run_times 0
 own_window yes
 own_window_type desktop
-own_window_transparent yes
+own_window_transparent no
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 double_buffer yes
 minimum_size 200 5
@@ -31,13 +31,14 @@ Filesystems $alignr ENCRYPTED
 Uptime $alignr $uptime
 Load $alignr $loadavg
 Hostname $alignr $nodename
-enp0s7 $alignr ${addr enp0s7}
-Inbound $alignr ${downspeed enp0s7} /s
-${downspeedgraph enp0s7}
-Outbound $alignr ${upspeed enp0s7} /s
-${upspeedgraph enp0s7}
+Wireless $alignr ${addr wlp2s0}
+Gateway $alignr ${gw_ip wlp2s0}
+Inbound $alignr ${downspeed wlp2s0} /s
+${downspeedgraph wlp2s0}
+Outbound $alignr ${upspeed wlp2s0} /s
+${upspeedgraph wlp2s0}
 $processes processes ($running_processes running)
-CPU $alignr ${cpu cpu0}%
+CPU $alignc ${freq_g}Ghz $alignr ${cpu cpu0}%
 ${cpubar cpu0}
 MEM $alignc $mem / $memmax $alignr $memperc%
 $membar

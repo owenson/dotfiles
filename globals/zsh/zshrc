@@ -3317,6 +3317,11 @@ zrclocal
 # Local variables:
 # mode: sh
 # End:
+
+for p in /etc/zsh/plugins/*; do
+    source $p
+done
+
 alias ls='ls --color=auto'
 alias x="sudo -i"
 alias pai="sudo yaourt -S"
