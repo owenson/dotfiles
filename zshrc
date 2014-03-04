@@ -17,3 +17,4 @@ HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory autocd extendedglob
 # End of lines configured by zsh-newuser-install
+bindkey -e
