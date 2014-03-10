@@ -33,6 +33,7 @@ Load $alignr $loadavg
 Hostname $alignr $nodename
 Wireless $alignr ${addr wlp2s0}
 Gateway $alignr ${gw_ip wlp2s0}
+Battery $alignr ${execi 60 acpi | cut -d ' ' -f 5,4 | tr -d ',' |  sed -r "s/\:[0-9]+$//g"}
 Inbound $alignr ${downspeed wlp2s0} /s
 ${downspeedgraph wlp2s0}
 Outbound $alignr ${upspeed wlp2s0} /s
@@ -56,4 +57,3 @@ ${top name 4} $alignr ${top pid 4} ${top cpu 4}
 ${top name 5} $alignr ${top pid 5} ${top cpu 5}
 ${top name 6} $alignr ${top pid 6} ${top cpu 6}
 ${top name 7} $alignr ${top pid 7} ${top cpu 7}
-${top name 8} $alignr ${top pid 8} ${top cpu 8}
