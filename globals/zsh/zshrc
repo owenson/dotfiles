@@ -3341,4 +3341,7 @@ alias sc-sta="systemctl start"
 alias sc-sto="systemctl stop"
 alias -g G="| grep "
 alias -g M="| more "
+alias gca="git commit -a"
+alias gpo="git push origin"
+alias gp="git pull"
 
