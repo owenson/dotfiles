@@ -3344,4 +3344,5 @@ alias -g M="| more "
 alias gca="git commit -a"
 alias gpo="git push origin"
 alias gp="git pull"
+alias py="python2.7"
 
