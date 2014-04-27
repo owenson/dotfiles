@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in vimrc vim conky zshrc
+for f in vimrc vim conky zshrc zshrc.local
 do
    CMD="ln -s `pwd`/$f ../.$f"
    echo	$CMD
