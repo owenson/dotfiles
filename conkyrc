@@ -31,12 +31,12 @@ Filesystems $alignr ENCRYPTED
 Uptime $alignr $uptime
 Load $alignr $loadavg
 Hostname $alignr $nodename
-Wireless $alignr ${addr wlp2s0}
-Gateway $alignr ${gw_ip wlp2s0}
-Inbound $alignr ${downspeed wlp2s0} /s
-${downspeedgraph wlp2s0}
-Outbound $alignr ${upspeed wlp2s0} /s
-${upspeedgraph wlp2s0}
+Wireless $alignr ${addr enp0s7}
+Gateway $alignr ${gw_ip enp0s7}
+Inbound $alignr ${downspeed enp0s7} /s
+${downspeedgraph enp0s7}
+Outbound $alignr ${upspeed enp0s7} /s
+${upspeedgraph enp0s7}
 $processes processes ($running_processes running)
 CPU $alignc ${freq_g}Ghz $alignr ${cpu cpu0}%
 ${cpubar cpu0}
