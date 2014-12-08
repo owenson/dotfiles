@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<menu id="1" label="Development">
+			<item label="Fluid"> <action name="Execute">
+				<execute>fluid</execute>
+			</action> </item>
+			<item label="Qt4 Assistant"> <action name="Execute">
+				<execute>assistant-qt4</execute>
+			</action> </item>
+			<item label="Qt4 Designer"> <action name="Execute">
+				<execute>designer-qt4</execute>
+			</action> </item>
+			<item label="Qt4 Linguist"> <action name="Execute">
+				<execute>linguist-qt4</execute>
+			</action> </item>
+			<item label="Qt4 QDbusViewer"> <action name="Execute">
+				<execute>qdbusviewer-qt4</execute>
+			</action> </item>
+		</menu>
+		<menu id="2" label="Editors">
+			<item label="GVim"> <action name="Execute">
+				<execute>gvim</execute>
+			</action> </item>
+			<item label="Nano"> <action name="Execute">
+				<execute>gnome-terminal -e nano</execute>
+			</action> </item>
+			<item label="Vi"> <action name="Execute">
+				<execute>gnome-terminal -e vi</execute>
+			</action> </item>
+			<item label="Vim"> <action name="Execute">
+				<execute>gnome-terminal -e vim</execute>
+			</action> </item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="Image Viewer"> <action name="Execute">
+				<execute>eog</execute>
+			</action> </item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="Cheese"> <action name="Execute">
+				<execute>cheese</execute>
+			</action> </item>
+			<item label="Videos"> <action name="Execute">
+				<execute>totem</execute>
+			</action> </item>
+			<item label="VLC media player"> <action name="Execute">
+				<execute>vlc</execute>
+			</action> </item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Avahi SSH Server Browser"> <action name="Execute">
+				<execute>bssh</execute>
+			</action> </item>
+			<item label="Avahi VNC Server Browser"> <action name="Execute">
+				<execute>bvnc</execute>
+			</action> </item>
+			<item label="Empathy"> <action name="Execute">
+				<execute>empathy</execute>
+			</action> </item>
+			<item label="FireFox"> <action name="Execute">
+				<execute>firefox</execute>
+			</action> </item>
+			<item label="FTP"> <action name="Execute">
+				<execute>gnome-terminal -e ftp</execute>
+			</action> </item>
+			<item label="Google Chrome"> <action name="Execute">
+				<execute>google-chrome-stable</execute>
+			</action> </item>
+			<item label="Mail"> <action name="Execute">
+				<execute>gnome-terminal -e mail</execute>
+			</action> </item>
+			<item label="Talk"> <action name="Execute">
+				<execute>gnome-terminal -e talk</execute>
+			</action> </item>
+			<item label="Telnet"> <action name="Execute">
+				<execute>gnome-terminal -e telnet</execute>
+			</action> </item>
+			<item label="TigerVNC Viewer"> <action name="Execute">
+				<execute>vncviewer</execute>
+			</action> </item>
+			<item label="Web"> <action name="Execute">
+				<execute>epiphany</execute>
+			</action> </item>
+		</menu>
+		<menu id="3" label="Office">
+			<item label="Dictionary"> <action name="Execute">
+				<execute>gnome-dictionary</execute>
+			</action> </item>
+			<item label="Document Viewer"> <action name="Execute">
+				<execute>evince</execute>
+			</action> </item>
+			<item label="LibreOffice Impress"> <action name="Execute">
+				<execute>libreoffice</execute>
+			</action> </item>
+			<item label="TeXstudio"> <action name="Execute">
+				<execute>texstudio</execute>
+			</action> </item>
+		</menu>
+		<menu id="39" label="Other">
+			<item label="Qt V4L2 test Utility"> <action name="Execute">
+				<execute>qv4l2</execute>
+			</action> </item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="Files"> <action name="Execute">
+				<execute>nautilus --no-desktop</execute>
+			</action> </item>
+			<item label="GIT"> <action name="Execute">
+				<execute>gnome-terminal -e git</execute>
+			</action> </item>
+			<item label="Oracle VM VirtualBox"> <action name="Execute">
+				<execute>VirtualBox</execute>
+			</action> </item>
+			<item label="Terminal"> <action name="Execute">
+				<execute>gnome-terminal</execute>
+			</action> </item>
+			<item label="UXTerm"> <action name="Execute">
+				<execute>uxterm</execute>
+			</action> </item>
+			<item label="Xterm"> <action name="Execute">
+				<execute>xterm</execute>
+			</action> </item>
+		</menu>
+		<menu id="37" label="System">
+			<menu id="36" label="Settings">
+				<menu id="21" label="GNOME">
+					<item label="Network Connections"> <action name="Execute">
+						<execute>nm-connection-editor</execute>
+					</action> </item>
+				</menu>
+				<item label="ARandR"> <action name="Execute">
+					<execute>arandr</execute>
+				</action> </item>
+				<item label="Awn Settings"> <action name="Execute">
+					<execute>awn-settings</execute>
+				</action> </item>
+				<item label="Disks"> <action name="Execute">
+					<execute>gnome-disks</execute>
+				</action> </item>
+				<item label="Panel tint2"> <action name="Execute">
+					<execute>tint2conf</execute>
+				</action> </item>
+				<item label="Search and Indexing"> <action name="Execute">
+					<execute>tracker-preferences</execute>
+				</action> </item>
+			</menu>
+			<item label="Avahi Zeroconf Browser"> <action name="Execute">
+				<execute>avahi-discover</execute>
+			</action> </item>
+			<item label="dconf Editor"> <action name="Execute">
+				<execute>dconf-editor</execute>
+			</action> </item>
+			<item label="Disk Usage Analyzer"> <action name="Execute">
+				<execute>baobab</execute>
+			</action> </item>
+			<item label="GNOME System Monitor"> <action name="Execute">
+				<execute>gnome-system-monitor</execute>
+			</action> </item>
+			<item label="GParted"> <action name="Execute">
+				<execute>gparted_polkit</execute>
+			</action> </item>
+			<item label="Htop"> <action name="Execute">
+				<execute>gnome-terminal -e htop</execute>
+			</action> </item>
+			<item label="Settings"> <action name="Execute">
+				<execute>gnome-control-center --overview</execute>
+			</action> </item>
+			<item label="System Log"> <action name="Execute">
+				<execute>gnome-system-log</execute>
+			</action> </item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="7-Zip FM"> <action name="Execute">
+				<execute>7zFM</execute>
+			</action> </item>
+			<item label="Archive Manager"> <action name="Execute">
+				<execute>file-roller</execute>
+			</action> </item>
+			<item label="Avant Window Navigator"> <action name="Execute">
+				<execute>avant-window-navigator</execute>
+			</action> </item>
+			<item label="Calculator"> <action name="Execute">
+				<execute>gnome-calculator</execute>
+			</action> </item>
+			<item label="Character Map"> <action name="Execute">
+				<execute>gucharmap</execute>
+			</action> </item>
+			<item label="Contacts"> <action name="Execute">
+				<execute>gnome-contacts</execute>
+			</action> </item>
+			<item label="Desktop Search"> <action name="Execute">
+				<execute>tracker-needle</execute>
+			</action> </item>
+			<item label="Font Viewer"> <action name="Execute">
+				<execute>gnome-font-viewer</execute>
+			</action> </item>
+			<item label="Help"> <action name="Execute">
+				<execute>yelp</execute>
+			</action> </item>
+			<item label="Screenshot"> <action name="Execute">
+				<execute>gnome-screenshot --interactive</execute>
+			</action> </item>
+			<item label="Tweak Tool"> <action name="Execute">
+				<execute>gnome-tweak-tool</execute>
+			</action> </item>
+		</menu>
+		<separator/>
+		<menu id="40" label="OpenBox">
+			<menu id="client-list-menu"/>
+			<item label="Reconfigure"> <action name="Reconfigure"/> </item>
+			<separator/>
+			<item label="Exit"> <action name="Exit"/> </item>
+		</menu>
+	</menu>
+</openbox_menu>
