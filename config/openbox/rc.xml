@@ -358,7 +358,8 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="W-Right">
+    <keybind key="W-Alt-Right">
+        <action name="UnMaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
         <y>0</y>
@@ -366,7 +367,26 @@
         <height>100%</height>
       </action>
     </keybind>
-    <keybind key="W-Left">
+    <keybind key="W-Alt-Down">
+        <action name="UnMaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Alt-Up">
+        <action name="UnMaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Alt-Left">
+        <action name="UnMaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
@@ -743,9 +763,6 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-      <application class="Google-chrome-stable">
-          <decor>no</decor>
-      </application>
       <application class="Kufner">
           <decor>no</decor>
           <position>
